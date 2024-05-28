@@ -84,6 +84,7 @@ trainer = Trainer(
     args=training_args,
     train_dataset=dataset,
     compute_metrics=compute_metrics,
+    tokenizer=tokenizer,
 )
 
 # Treinamento

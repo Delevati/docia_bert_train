@@ -1,6 +1,7 @@
 *.env
 *.zip
 
+/results
 /input
 /__pycache__
 /venv
